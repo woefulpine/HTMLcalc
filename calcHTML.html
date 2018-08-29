@@ -23,7 +23,7 @@ ul {
 * INPUT: An integer number.
 * OUTPUT: Does not return anything but will change the display line.
 */
-function enterNum (var aNum){
+function enterNum (aNum){
 	document.getElementById("display").innerHTML = aNum;
 }
 	
@@ -38,28 +38,28 @@ function enterNum (var aNum){
 <p id="display">Welcome to the program.</p>
   
  	<!--Calculator Number Pad--> 
- <ul>
-	<li> <button> 7 </button> </li>
-	<li> <button> 8 </button> </li>
-	<li> <button> 9 </button> </li>
-</ul>
-	
-<br>
-	
 <ul>
-	<li> <button> 4 </button> </li>
-	<li> <button> 5 </button> </li>
-	<li> <button> 6 </button> </li>
+	<li> <button type="button" onclick ="enterNum(7)"> 7 </button> </li>
+	<li> <button type="button" onclick ="enterNum(7)"> 8 </button> </li>
+	<li> <button type="button" onclick ="enterNum(7)"> 9 </button> </li>
 </ul>
 
 <br>
-	
+
 <ul>
-	<li><button>1</button></li>
-	<li><button>2</button></li>
-	<li><button>3</button></li>
+	<li> <button type="button" onclick ="enterNum(7)"> 4 </button> </li>
+	<li> <button type="button" onclick ="enterNum(7)"> 5 </button> </li>
+	<li> <button type="button" onclick ="enterNum(7)"> 6 </button> </li>
+</ul>
+
+<br>
+
+<ul>
+	<li> <button type="button" onclick ="enterNum(7)"> 1 </button> </li>
+	<li> <button type="button" onclick ="enterNum(7)"> 2 </button> </li>
+	<li> <button type="button" onclick ="enterNum(7)"> 3 </button> </li>
 </ul>
   
- </body>
+</body>
 	
- </html>
+</html>

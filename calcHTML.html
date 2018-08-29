@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
   
-<!--Zeshan Ahmad Caculator program.-->
+	<!--Zeshan Ahmad Caculator program.-->
   
 <head>
-	
+	<!--Style for Document.-->
 <style>	
 li {
 	float:left
@@ -13,16 +13,31 @@ ul {
 	list-style-type:none
 }
 </style>
+
+	
+	<!--Scripts for Functions-->
+<script>
+	
+/*enterNum(aNum) will change the display line to display the number or character
+* that is given as input.
+* INPUT: An integer number.
+* OUTPUT: Does not return anything but will change the display line.
+*/
+function enterNum (var aNum){
+	document.getElementById("display").innerHTML = aNum;
+}
+	
+</script>
 	
 </head>
  
 <body>
 <h1>Calculator Program<h1>
   
-<!--Calculator display line-->
+	<!--Calculator display line-->
 <p id="display">Welcome to the program.</p>
   
- <!--Calculator Number Pad--> 
+ 	<!--Calculator Number Pad--> 
  <ul>
 	<li> <button> 7 </button> </li>
 	<li> <button> 8 </button> </li>
@@ -46,4 +61,5 @@ ul {
 </ul>
   
  </body>
+	
  </html>
